@@ -215,7 +215,7 @@
 |-------|-----------|
 | **Unidade Curricular** | Tecnologias Multimédia em Saúde Digital |
 | **Instituição** | Escola Superior de Saúde — Politécnico do Porto (P.Porto) |
-| **Ano Letivo** | 2024/2025 |
+| **Ano Letivo** | 2025/2026 |
 
 ---
 
