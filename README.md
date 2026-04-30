@@ -1,4 +1,4 @@
-# 🏥 Tecnologias Multimédia em Saúde Digital — Fichas HTML
+# Tecnologias Multimédia em Saúde Digital — Fichas HTML
 
 > Repositório com as correções das fichas práticas de HTML da unidade curricular **Tecnologias Multimédia em Saúde Digital**, lecionada na **Escola Superior de Saúde — P.Porto**.
 
@@ -209,7 +209,7 @@
 
 ---
 
-## 🎓 Informação Académica
+##  Informação Académica
 
 | Campo | Informação |
 |-------|-----------|
