@@ -15,11 +15,11 @@
     </nav>
     <main>
         <h1>Como identificar desinformação em saúde online</h1>
-
         <section id="sinais">
-            <h1>Sinais de alerta</h1>
+            <h2>Sinais de alerta</h2>
             <p>
-                Nem toda a informação disponível na internet é fiável. Existem alguns sinais que devem chamar a atenção
+                Nem toda a informação disponível na internet é fiável. Existem alguns sinais que devem chamar a
+                atenção
                 do utilizador.
             </p>
             <ul>
@@ -28,39 +28,43 @@
                 <li>Linguagem alarmista ou demasiado emocional</li>
             </ul>
         </section>
-
         <aside id="fontes">
             <h2>Fontes fiáveis</h2>
             <p> Para confirmar informação sobre saúde, é importante consultar fontes institucionais e reconhecidas.</p>
             <ul>
                 <li>
-                    <a href="https://www.sns24.gov.pt/">SNS24</a>
+                    <a href="https://www.sns24.gov.pt/" target="_blank" rel="noopener noreferrer">SNS24</a>
                 </li>
                 <li>
-                    <a href="https://www.who.int/">OMS</a>
+                    <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">OMS</a>
                 </li>
                 <li>
-                    <a href="https://www.dgs.pt/">DGS</a>
+                    <a href="https://www.dgs.pt/" target="_blank" rel="noopener noreferrer">DGS</a>
                 </li>
             </ul>
         </aside>
-
         <section id="contacto">
             <h2>Enviar dúvida</h2>
             <p>
                 Se tiveres dúvidas sobre um conteúdo de saúde encontrado online, podes enviar uma mensagem.
             </p>
             <form action="">
-                <input type="text" placeholder="Nome">
+                <label for="nome">Nome:</label>
                 <br>
-                <input type="email" placeholder="Email">
+                <input type="text" id="nome" placeholder="Nome" name="nome" required>
                 <br>
-                <textarea placeholder="Escreve aqui a tua dúvida"></textarea>
+                <label for="email">Email:</label>
                 <br>
-                <button>Enviar</button>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+                <br>
+                <label for="duvida">Dúvida:</label>
+                <br>
+                <textarea id="duvida" placeholder="Escreve aqui a tua dúvida" name="duvida" rows="5"
+                    required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>
 
