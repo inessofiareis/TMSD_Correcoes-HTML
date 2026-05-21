@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>CareNow - Teleconsulta de Nutrição</title>
+    </head>
+    <body>
+        <h1>Teleconsulta de Nutrição</h1>
+        <p>Bem-vindo à
+            <strong> CareNow!</strong> Oferecemos consultas
+            <em> nutricionais</em>
+            remotas para ajudá-lo a
+        alcançar os seus objetivos de saúde.
+        </p>
+        <img
+            src="./images/nutricao.jpg"
+            alt="Imagem de alimentos saudáveis"
+            title="Imagem relacionada à Nutrição"
+            width="200"
+        >
+        <ul>
+            <li>Beneficio 1</li>
+            <li>Beneficio 2</li>
+            <li>Beneficio 3</li>
+        </ul>
+        <a href="https://www.sns24.gov.pt" target="_blank">Link para o site do SNS</a>
+        <a href="#marcacao">Pedir Marcação</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Plano</th>
+                    <th>Inclui</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Plano Essencial</td>
+                    <td>1 teleconsulta + relatório</td>
+                    <td>150€</td>
+                </tr>
+                <tr>
+                    <td>Plano de Acompanhamento</td>
+                    <td>4 sessões + mensagens</td>
+                    <td>50€</td>
+                </tr>
+                <tr>
+                    <td>Plano Completo</td>
+                    <td>8 sessões + consulta inicial + seguimento</td>
+                    <td>200€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Este formulário não substitui atendimento de urgência</td>
+                </tr>
+            </tfoot>
+        </table>
+        <form id="marcacao">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="nome">Nome Completo:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required
+                    placeholder="Insira o seu nome"
+                >
+                <br>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Marcação</legend>
+                <label for="data">Data preferida:</label>
+                <input
+                    type="date"
+                    id="data"
+                    name="data"
+                    required
+                >
+                <br>
+                <p>
+                    <strong></strong>Tipo de Serviço:</strong>
+            </p>
+            <input
+                type="radio"
+                name="type"
+                id="type1"
+                value="Plano Essencial"
+            >
+            <label for="type1">Plano Essencial</label>
+            <br>
+            <input
+                type="radio"
+                name="type"
+                id="type2"
+                value="Plano de Acompanhamento"
+            >
+            <label for="type2">Plano de Acompanhamento</label>
+            <br>
+            <input
+                type="radio"
+                name="type"
+                id="type3"
+                value="Plano Completo"
+            >
+            <label for="type3">Plano Completo</label>
+            <br>
+            <textarea
+                name="message"
+                id="message"
+                rows="4"
+                cols="50"
+                placeholder="Deixe aqui uma mensagem ou dúvida..."
+            ></textarea>
+        </fieldset>
+        <input type="submit" value="Pedir Marcação">
+    </form>
+</body>
+</html>
